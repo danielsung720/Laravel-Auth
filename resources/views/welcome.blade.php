@@ -23,7 +23,7 @@
                     @if (Route::has('login'))
                     <div>
                         @auth
-                            <a href="{{ url('/home') }}">Home</a>
+                            <a href="{{ url('/home') }}">-Home-</a>
                         @else
                             <a href="{{ route('login') }}">登入 / 註冊</a>
                         @endauth
