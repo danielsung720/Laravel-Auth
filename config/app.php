@@ -2,6 +2,18 @@
 
 return [
 
+    // 自動載入Service Providers
+    'providers' => [
+        //Facebook登入
+        Laravel\Socialite\SocialiteServiceProvider::class,
+    ],
+        
+    // 類別命名
+    'aliases' => [
+        //Facebook登入
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -227,5 +239,4 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
-
 ];

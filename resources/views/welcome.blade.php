@@ -26,6 +26,7 @@
                             <a href="{{ url('/home') }}">-Home-</a>
                         @else
                             <a href="{{ route('login') }}">登入 / 註冊</a>
+                            <a href="{{ route('fb_login') }}">Facebook登入 / 註冊</a>
                         @endauth
                     </div>
                     @endif
