@@ -62,8 +62,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, '王小明', 'user0001@yahoo.com.tw', '$2y$10$LKfYR.CzdOghUxT5kAksMeTJUWlrv7/GUy622wKG7m4VAQi/n62Eu', 'Vz5dAvFT3oDhe17sT639U2RixBrqS52WwV7287OzaMJb8FqYiF9R7jyIRg1q', '2020-03-27 02:20:00', '2020-03-27 02:20:00'),
-(5, '宋紹寧', 'activearmy720@gmail.com', '$2y$10$3A.9EGkdzHsfuTmp.s5EPeqcx9rwAuSs3.vWjlorPTL/SA7iac3gq', NULL, '2020-03-28 06:27:15', '2020-03-28 06:27:15');
+(1, '王小明', 'user0001@yahoo.com.tw', '$2y$10$LKfYR.CzdOghUxT5kAksMeTJUWlrv7/GUy622wKG7m4VAQi/n62Eu', 'Vz5dAvFT3oDhe17sT639U2RixBrqS52WwV7287OzaMJb8FqYiF9R7jyIRg1q', '2020-03-27 02:20:00', '2020-03-27 02:20:00');
 
 --
 -- 已傾印資料表的索引
